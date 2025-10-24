@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>FR Legends vs Drift Max Pro — Drift Mechanics, Tuning & Player Experience Compared</title>
+  <meta name="description" content="A comprehensive comparison of FR Legends and Drift Max Pro. Explore drift physics, tuning depth, progression, community features, and which game suits casual players or serious drifters." />
+  <meta name="keywords" content="FR Legends, Drift Max Pro, drift games comparison, mobile drifting, car tuning, driving mechanics, racing game analysis" />
+  <meta name="robots" content="index, follow">
+  <style>
+    /* Aqua + gray theme, clean, readable */
+    :root{
+      --bg: #eaf7f9;
+      --panel: #ffffff;
+      --accent: #00a4d3;
+      --accent-2: #00d1b2;
+      --muted: #5a6a73;
+      --card-shadow: 0 12px 30px rgba(3,37,42,0.06);
+      --radius:12px;
+      --maxw:1100px;
+      --accent-contrast: #ffffff;
+      --cta: #ff6b35;
+    }
+    html,body{height:100%;margin:0;font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;color:#0e2b33;background:var(--bg);line-height:1.75}
+    .wrap{max-width:var(--maxw);margin:36px auto;padding:26px;background:var(--panel);border-radius:var(--radius);box-shadow:var(--card-shadow);border:1px solid rgba(2,20,22,0.04)}
+    header{display:flex;gap:18px;align-items:center;margin-bottom:20px}
+    .brand{width:72px;height:72px;border-radius:12px;background:linear-gradient(135deg,var(--accent),var(--accent-2));display:flex;align-items:center;justify-content:center;color:var(--accent-contrast);font-weight:700;font-size:20px;box-shadow:inset 0 -6px 12px rgba(255,255,255,0.08)}
+    h1{margin:0;font-size:1.5rem;color:#03303a}
+    .subtitle{color:var(--muted);margin-top:6px}
+    main{margin-top:18px}
+    h2{color:#024b57;margin:18px 0 10px;font-size:1.08rem}
+    p{margin:0 0 14px}
+    .lead{font-size:1.02rem;color:#08333b}
+    table{width:100%;border-collapse:collapse;margin:18px 0;border-radius:10px;overflow:hidden;box-shadow:0 6px 18px rgba(2,20,22,0.03)}
+    th,td{padding:12px 14px;text-align:left;border-bottom:1px solid rgba(3,37,42,0.05)}
+    th{background:linear-gradient(90deg,var(--accent),var(--accent-2));color:var(--accent-contrast);font-weight:600}
+    tr:nth-child(even){background:#fbfeff}
+    ul{margin-left:20px}
+    a{color:var(--accent);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .info{background:linear-gradient(180deg,#f0fdfd,#ffffff);border-left:4px solid var(--accent-2);padding:12px;border-radius:8px;color:#044246;margin:12px 0}
+    .proscons{display:flex;gap:18px;flex-wrap:wrap;margin:12px 0}
+    .card{flex:1 1 220px;background:#fff;border-radius:10px;padding:12px;border:1px solid rgba(2,20,22,0.04)}
+    .card h4{margin:0 0 8px;color:#01363b}
+    /* Slider: simple CSS + JS */
+    .slider{position:relative;margin:20px 0;border-radius:10px;overflow:hidden;border:1px solid rgba(2,20,22,0.04)}
+    .slides{display:flex;transition:transform .45s ease;will-change:transform}
+    .slide{min-width:100%;box-sizing:border-box;padding:20px;background:linear-gradient(180deg,#ffffff,#f6fbfb);display:flex;gap:20px;align-items:center}
+    .slide img{width:160px;height:100px;object-fit:cover;border-radius:8px;border:1px solid rgba(3,37,42,0.05)}
+    .slider-controls{display:flex;justify-content:center;gap:8px;margin-top:8px}
+    .dot{width:10px;height:10px;border-radius:50%;background:#d9f3f4;cursor:pointer;border:1px solid rgba(2,20,22,0.06)}
+    .dot.active{background:var(--accent)}
+    .faq{margin-top:18px}
+    .faq h3{margin:8px 0;color:#023e43}
+    .faq p{margin:6px 0 12px}
+    footer{margin-top:24px;text-align:center;color:var(--muted);font-size:0.95rem}
+    @media(max-width:820px){.proscons{flex-direction:column} .slide{flex-direction:column;align-items:flex-start} .slide img{width:100%;height:160px}}
+  </style>
+</head>
+<body>
+  <div class="wrap" role="main">
+    <header>
+      <div class="brand">DRFT</div>
+      <div>
+        <h1>FR Legends vs Drift Max Pro — Drift Mechanics, Tuning & Player Experience</h1>
+        <div class="subtitle">A practical, in-depth comparison for mobile drifters and creators (includes pros/cons, slider, FAQ and resources).</div>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <p class="lead">Drift-focused mobile titles span a variety of approaches: one may prioritize arcadey responsiveness to make learning fast and fun, while another emphasizes mechanical fidelity and detailed setup. This comparison contrasts <strong>FR Legends</strong> and <strong>Drift Max Pro</strong> across physics, tuning systems, progression, community features, and long-term engagement so you can pick the game that fits how you like to play.</p>
+      </section>
+
+      <section>
+        <h2>Quick reference & single-place resources</h2>
+        <div class="info">
+          <strong>FR Legends info portal:</strong> For setup guides, community builds, and walkthroughs see the <a href="https://thefrlegendsapks.com/" target="_blank" rel="noopener">FR Legends information portal</a>.
+        </div>
+        <p class="muted">Note: this article uses a handful of comparative resources and case studies to illustrate design choices and community impact — see the links at the end for those references (each used once, in context).</p>
+      </section>
+
+      <section>
+        <h2>At-a-glance feature table</h2>
+        <table aria-label="FR Legends vs Drift Max Pro comparison">
+          <tr>
+            <th>Feature</th>
+            <th>FR Legends</th>
+            <th>Drift Max Pro</th>
+          </tr>
+          <tr>
+            <td>Design focus</td>
+            <td>Input-driven drift, short sessions, social sharing</td>
+            <td>Competition-style drift with event ladders and realistic feedback</td>
+          </tr>
+          <tr>
+            <td>Physics & handling</td>
+            <td>Responsive, slightly arcade-tuned to reward timing</td>
+            <td>More simulation-leaning: tyre models, suspension effects</td>
+          </tr>
+          <tr>
+            <td>Tuning depth</td>
+            <td>Accessible tuning for quick iteration</td>
+            <td>Granular tuning, trade-offs across parts and setups</td>
+          </tr>
+          <tr>
+            <td>Replayability</td>
+            <td>Community-driven replays and creative events</td>
+            <td>Event ladders and leaderboard-driven replay value</td>
+          </tr>
+        </table>
+      </section>
+
+      <section>
+        <h2>Pros & cons — quick summary</h2>
+        <div class="proscons">
+          <div class="card">
+            <h4>FR Legends — Pros</h4>
+            <ul>
+              <li>Fast to learn, rewarding for short practice</li>
+              <li>Strong community sharing and creative liveries</li>
+              <li>Accessible tuning experiments</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h4>FR Legends — Cons</h4>
+            <ul>
+              <li>Less mechanical depth for hardcore sim fans</li>
+              <li>Smaller event structure for competitive leagues</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h4>Drift Max Pro — Pros</h4>
+            <ul>
+              <li>Granular tuning and realistic drift feedback</li>
+              <li>Clear competitive ladder and event format</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h4>Drift Max Pro — Cons</h4>
+            <ul>
+              <li>Steeper learning curve for newcomers</li>
+              <li>Longer setup iteration times to find optimal tune</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Slider: visual examples of differences</h2>
+        <!-- Simple JS slider: images are placeholders (use your own on publish) -->
+        <div class="slider" id="slider">
+          <div class="slides" id="slides">
+            <div class="slide">
+              <img src="https://via.placeholder.com/320x200?text=FR+Legends+drift" alt="FR Legends drift example">
+              <div>
+                <strong>FR Legends: concise arenas</strong>
+                <p>Short, focused arenas favor repeat practice and quick score runs.</p>
+              </div>
+            </div>
+            <div class="slide">
+              <img src="https://via.placeholder.com/320x200?text=Drift+Max+Pro+setup" alt="Drift Max Pro setup">
+              <div>
+                <strong>Drift Max Pro: detailed tuning</strong>
+                <p>Setup screens expose more mechanical options for fine-tuning behavior.</p>
+              </div>
+            </div>
+            <div class="slide">
+              <img src="https://via.placeholder.com/320x200?text=Community+replay" alt="Community replay">
+              <div>
+                <strong>Community sharing</strong>
+                <p>Both communities publish replays, but FR Legends leans more toward creative shows.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slider-controls" id="dots"></div>
+      </section>
+
+      <section>
+        <h2>Deeper dive — tuning & setup philosophies</h2>
+        <p>FR Legends lets players iterate quickly: adjusting camber, pressure, or gear ratios produces tangible changes quickly, enabling creative experimentation. The feedback is immediate—players see how angle, throttle, and steering inputs translate into drift style.</p>
+        <p>Drift Max Pro expects players to manage finer details: damping rates, toe/camber extremes, and differential settings. The result is a steep but rewarding learning path; small changes compound and require more test runs to validate.</p>
+      </section>
+
+      <section>
+        <h2>Progression, competitive structure & community</h2>
+        <p>Progression in FR Legends is largely social—players unlock cosmetic parts, share builds, and run community events. A complementary comparative analysis exploring these social dynamics can be found at the <a href="http://frlegends-comparative-review.atwebpages.com/" target="_blank" rel="noopener">comparative review resource</a>.</p>
+        <p>Drift Max Pro focuses on ranking and event ladders: regular events, seasonal challenges, and leaderboard rewards are core to its retention mechanics. For related comparative case studies (drift vs other driving designs), check a prior case study at the <a href="https://frlegends-vs-drdriving.netlify.app/" target="_blank" rel="noopener">FR Legends vs Dr. Driving case study</a>.</p>
+      </section>
+
+      <section>
+        <h2>Design trade-offs and what they teach you</h2>
+        <p>Both games teach vehicle control, but in different domains. FR Legends trains timing and expressive control; it’s well-suited to players who enjoy quick improvement cycles and building a visual presence. Drift Max Pro trains the patient engineer—learning how parts interact, and optimizing setups for consistent competition results.</p>
+        <p class="info">If you want a compendium of design trade-offs across drift and arcade titles (monetization, progression, visual language), see the multi-site study at the <a href="https://frlegends-vs-nfs-study.infinityfreeapp.com/?i=1" target="_blank" rel="noopener">NFS study reference</a>.</p>
+      </section>
+
+      <section>
+        <h2>FAQ — common drift questions</h2>
+        <div class="faq">
+          <h3>Q: Which game is better for beginners?</h3>
+          <p>A: FR Legends has a gentler entry curve and quicker feedback loops, making it a better start for many players.</p>
+
+          <h3>Q: Which title is more competitive?</h3>
+          <p>A: Drift Max Pro is structured for competition with more granular leaderboards and event ladders; FR Legends supports community events but is less ladder-focused.</p>
+
+          <h3>Q: Do either of these teach real driving skills?</h3>
+          <p>A: Both teach aspects of vehicle control (throttle management, weight transfer), but neither substitutes for real-world driving instruction. For context on how simulators map to reality, consult Wikipedia’s <a href="https://en.wikipedia.org/wiki/Racing_video_game" target="_blank" rel="noopener">racing video games overview</a>.</p>
+        </div>
+      </section>
+
+      <section>
+        <h2>Final recommendations</h2>
+        <ul>
+          <li><strong>Choose FR Legends</strong> if you prefer short practice loops, creative expression, and rapid iteration on drift setups.</li>
+          <li><strong>Choose Drift Max Pro</strong> if you want deeper tuning, a competitive ladder, and simulation-like nuance.</li>
+        </ul>
+        <p>Both titles contribute to the drifting ecosystem—try both and use their strengths: practice in FR Legends, test setups and compete in Drift Max Pro.</p>
+      </section>
+    </main>
+
+    <footer>
+      <div style="margin-bottom:8px;color:var(--muted)">References & related resources (single mentions):</div>
+      <div style="font-size:0.95rem;color:#044246;line-height:1.6">
+        • <a href="https://thefrlegendsapks.com/" target="_blank" rel="noopener">FR Legends official info portal</a> ·
+        • <a href="http://frlegends-comparative-review.atwebpages.com/" target="_blank" rel="noopener">comparative review resource</a> ·
+        • <a href="https://frlegends-vs-drdriving.netlify.app/" target="_blank" rel="noopener">FR Legends vs Dr. Driving case study</a> ·
+        • <a href="https://frlegends-vs-nfs-study.infinityfreeapp.com/?i=1" target="_blank" rel="noopener">NFS study reference</a> ·
+        • <a href="https://frlegends-vs-nfsnolimits.vercel.app/" target="_blank" rel="noopener">recent racing analysis project</a> ·
+        • <a href="https://en.wikipedia.org/wiki/Racing_video_game" target="_blank" rel="noopener">racing video games overview</a>
+      </div>
+      <div style="margin-top:12px;color:var(--muted)">© 2025 Drift Study — informational comparison. External links are included once each for context and further reading.</div>
+    </footer>
+  </div>
+
+  <script>
+    // Simple slider functionality
+    (function(){
+      const slidesEl = document.getElementById('slides');
+      const dotsEl = document.getElementById('dots');
+      const slides = slidesEl ? slidesEl.children : [];
+      let index = 0;
+      function renderDots(){
+        if(!dotsEl) return;
+        for(let i=0;i<slides.length;i++){
+          const dot = document.createElement('button');
+          dot.className = 'dot' + (i===0 ? ' active' : '');
+          dot.addEventListener('click', ()=> goTo(i));
+          dotsEl.appendChild(dot);
+        }
+      }
+      function goTo(i){
+        index = i;
+        slidesEl.style.transform = `translateX(-${i*100}%)`;
+        const dots = dotsEl.children;
+        for(let j=0;j<dots.length;j++) dots[j].classList.toggle('active', j===i);
+      }
+      // init
+      if(slides && slides.length){
+        renderDots();
+        // auto slide every 5s
+        setInterval(()=> {
+          index = (index+1) % slides.length;
+          goTo(index);
+        }, 5000);
+      }
+    })();
+  </script>
+</body>
+</html>
